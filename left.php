@@ -7,6 +7,6 @@ foreach($courses as $course):
 
 <p>
 
-<a href="javascript:ftc('<?php echo $course; ?>.php' , '<?php echo $course; ?>' ); > <?php echo $course; ?> </a>
+<a href="javascript:ftc('courses/<?php echo $course; ?>.php' , 'center' );" > <?php echo $course; ?> </a>
 
 <?php endforeach; ?>
